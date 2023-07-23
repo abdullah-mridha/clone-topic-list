@@ -66,9 +66,27 @@ body{
 .nav-ul-li:first-child{
     padding-left: 0px;
 }
-.page-dropdown{  
-}
 .nav-account{
     width: 5%;
 }
-.account-logo{}
+
+/* Search section styling */
+.search{
+    background-color: #82c7d2d1;
+    text-align: center;
+}
+.search-h h1{
+    color: whitesmoke;
+}
+.search-h h2{
+    color: rgba(56, 56, 134, 0.824);
+}
+.search-input{
+    background-color: aqua;
+}
+.search-place{
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
