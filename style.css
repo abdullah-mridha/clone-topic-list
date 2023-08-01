@@ -123,13 +123,43 @@ body{
 
 /* Blog container  */
 .container-blog{
-
+    padding: 25px;
+    background-color: transparent;
   }
-  .blog--web-design{
-
+  .blog--web-design {
+    height: 80vh;
+    /* background-color: rgba(221, 25, 25, 0.767); */
+    margin: 10px;
+    border-radius: 5px;
+  }
+  .web-design--com{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+  .web-design--com span{
+    color: #fff;
+    background-color: #00B0FF;
+    text-align: center;
+    font-size: larger;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .blog--web-design h1,
+  p{
+    color: black;
   }
   .web-design--text{
 
+  }
+  .blog--web-design img{
+    display: block;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    /* margin-top: 35px; */
+  }
   }
   /* Finance Card  */
   .blog--finance-card{
@@ -148,6 +178,6 @@ body{
 
   }
   .share--bookmark{
-    
+
   }
     
